@@ -71,7 +71,7 @@
 @synthesize password = _password;
 @synthesize filePath = _filePath;
 @dynamic fileName, fileURL;
-@dynamic canEmail, canExport, canPrint;
+//@dynamic canEmail, canExport, canPrint;
 
 #pragma mark - ReaderDocument class methods
 
@@ -257,20 +257,20 @@
 	return _fileURL;
 }
 
-- (BOOL)canEmail
-{
-	return YES;
-}
-
-- (BOOL)canExport
-{
-	return YES;
-}
-
-- (BOOL)canPrint
-{
-	return YES;
-}
+//- (BOOL)canEmail
+//{
+//	return YES;
+//}
+//
+//- (BOOL)canExport
+//{
+//	return YES;
+//}
+//
+//- (BOOL)canPrint
+//{
+//	return YES;
+//}
 
 - (BOOL)archiveDocumentProperties
 {
